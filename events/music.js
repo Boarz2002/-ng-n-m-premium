@@ -11,10 +11,10 @@ module.exports = (client) => {
         client.manager = new Manager({
             nodes: [
                 {
-                    host: config.lavalink.lavalink.host,
-                    port: config.lavalink.lavalink.port,
-                    password: config.lavalink.lavalink.password,
-                    secure: config.lavalink.lavalink.secure
+                    host: "lava1.horizxon.studio",
+                    port: 80,
+                    password: "horizxon.studio",
+                    secure: false
                 }
             ],
             send(id, payload) {
